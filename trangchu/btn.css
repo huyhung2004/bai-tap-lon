@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/baitaplon/anh/anhnen.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.nhap {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  background-image: linear-gradient(to bottom,#0c8de4,rgba(216, 210, 210, 0.888));
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  transition: width 0.3s;
+}
+.nhap.active {
+  width: 250px;
+}
+.menu-icon {
+  cursor: pointer;
+  color: #fff;
+  text-align: right;
+  padding-bottom: 50px;
+}
+
+.navbar.active .menu-icon::before {
+  content: '';
+}
+
+  .nhap ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .nhap li {
+    text-align: left;
+
+  }
+  .nhap li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+  }
+  .nhap li a i {
+      margin-right: 20px;
+      padding: auto;
+  }
+  .nhap a {
+    display: block;
+    padding: 10px 20px; 
+    text-decoration: none;
+    color: #fff; 
+  }
+  .nhap a:hover {
+    background-color: #555;
+    border-radius: 12px;
+  }
+  #demo {
+    margin-left:20%;
+    margin-bottom:15%;
+    margin-right: 10%;
+  } 
+  .carousel-caption h3{
+   color: rgb(24, 3, 20);
+   font-size: 45px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-shadow: 1px 1px #fff;
+ }
+  .carousel-inner {
+    height: 100%;
+    width: 100%;
+  }
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .dulieu {
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dulieu h1 {
+    font-size: 39px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+  .dulieu p{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .container-fluid {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 50px; 
+    background-image: linear-gradient(to bottom,#67b5e9,rgba(216, 210, 210, 0.888));
+    width: 100%;
+    float: none;
+    margin: auto;
+    line-height: 20px;
+    padding: 10px;
+    height: 35vh;
+
+}
+.container-fluid h5{
+      font-size: 30px;
+      margin-bottom: 20px;
+}
+
+

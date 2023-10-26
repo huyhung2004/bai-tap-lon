@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nhap {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    background-image: linear-gradient(to bottom,#0c8de4,rgba(216, 210, 210, 0.888));
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    transition: width 0.3s;
+  }
+  .nhap.active {
+    width: 250px;
+  }
+.menu-icon {
+  cursor: pointer;
+  color: #fff;
+  text-align: right;
+  padding-bottom: 50px;
+}
+.navbar.active .menu-icon::before {
+    content: '';
+  }
+  
+  .nhap ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .nhap li {
+    text-align: left;
+
+  }
+  .nhap li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+  }
+  .nhap li a i {
+      margin-right: 20px;
+      padding: auto;
+  }
+  .nhap a {
+    display: block;
+    padding: 10px 20px; 
+    text-decoration: none;
+    color: #fff; 
+  }
+  .nhap a:hover {
+    background-color: #555;
+    border-radius: 12px;
+  }
+.main{
+    width: 84%;
+    float: right;
+    margin-right: 60px;
+    margin-top: 36px;
+}
+.tieude{
+    text-align: center;
+    text-shadow: 1.5px 3px 2px rgb(188, 222, 255);
+    font-weight: bold;
+    font-size: 39px;
+    color: #531bd6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+.student{
+    margin-left: 300px;
+    margin-top: 15px ;
+    margin-bottom: 30px;
+    width: 45%;
+    
+}
+div.list{
+    padding: 6px;
+    margin-left: 111px;
+    width: 94.5%;
+    margin-top: 0;
+}
+.errol{
+    color: red;
+    margin-left: 36px;
+ }
+.student h2{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+
+}
+.student label{
+    width: 100px;
+    margin-left: 33px;
+}
+.student input[type="text"]{
+    width: 420px;
+}
+.student input[type="date"]{
+    
+    width: 420px;
+}
+#button{
+    margin-left: 21%;
+} 
+#nut{
+    margin-left: 48%;
+    margin-top: 30px;
+
+}
+button{
+    margin-left: 12px;
+    margin-bottom: 36px;
+    margin-right: 6px;
+}
+table,td{
+    padding: 7.5px;
+}
+td,th{
+    border-right:#7fa9cc 1px solid;
+}
+tr:nth-child(even) {
+    
+    background-color: #ffffff;
+}
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+td:last-child{
+    border-right: none;
+}
+th{
+    text-align: center;
+    background-color: #7fa9cc;
+    color: white;
+    padding: 6px;
+    border-left: #7fa9cc 1px solid;
+}
+input{
+    margin-left: 36px;
+
+}
+#namsinh{
+    margin-bottom: 9px;
+}  
+.none{
+    width: 50%;
+    height: auto;
+}
+#search{
+    margin-left: 90px;
+    margin-bottom: 0;
+}
+input[type="search"]{
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+}

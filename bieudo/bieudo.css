@@ -1,0 +1,100 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.nhap {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  background-image: linear-gradient(to bottom,#0c8de4,rgba(216, 210, 210, 0.888));
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  transition: width 0.3s;
+}
+.nhap.active {
+  width: 250px;
+}
+.menu-icon {
+cursor: pointer;
+color: #fff;
+text-align: right;
+padding-bottom: 50px;
+}
+.navbar.active .menu-icon::before {
+    content: '';
+  }
+  
+.nhap ul {
+  list-style-type: none;
+  padding: 0;
+}
+.nhap li {
+  text-align: left;
+
+}
+.nhap li a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.nhap li a i {
+    margin-right: 20px;
+    padding: auto;
+}
+.nhap a {
+  display: block;
+  padding: 10px 20px; 
+  text-decoration: none;
+  color: #fff; 
+}
+.nhap a:hover {
+  background-color: #555;
+  border-radius: 12px;
+}
+.tieude{
+  text-align: center;
+  text-shadow: 1.5px 3px 2px rgb(188, 222, 255);
+  font-weight: bold;
+  font-size: 50px;
+  color: #531bd6;
+  margin-bottom: 15px;
+  padding-top: 2%;
+}
+.char-container{
+  overflow: hidden;
+  font-size: 0;
+  display: inline-block;
+  
+}
+#bieudo1{
+  margin-left: 25%;
+  width: 100vh;
+  height: 50vh;
+  
+}
+#bieudo2{
+  margin-left: 25%;
+  width: 100vh;
+  height: 50vh;
+  float: center;
+}
+#bieudo3{
+  margin-left: 25%;
+  width: 100vh;
+  height: 50vh;
+
+}
+#bieudo4{
+  margin-left: 25%;
+  width: 100vh;
+  height: 50vh;
+
+}

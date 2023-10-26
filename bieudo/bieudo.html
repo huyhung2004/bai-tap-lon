@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quản lí sinh viên</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <link rel="stylesheet" href="bieudo.css">
+  <script src="bieudo.js"></script>
+</head>
+<body>
+  <nav class="nhap">
+    <div class="menu-icon" onclick="toggleNav()"><i class="fas fa-bars"></i></div>
+    <ul>
+      <li><a href="/baitaplon/trangchu/btn.html" id="#trangchu"><i class="fas fa-home"></i>Trang chủ</a></li>
+      <li><a href="/baitaplon/qlsinhvien/btl.html" id="#quanlisinhvien"><i class="fas fa-graduation-cap"></i>Quản lí sinh viên</a></li>
+      <li><a href="/baitaplon/qlmonhoc/monhoc.html"><i class="fas fa-table"></i>Quản lí môn học</a></li> 
+      <li><a href="/baitaplon/qldiem/qldiem.html" id="#quanlidiem"><i class="fas fa-chart-bar"></i> Quản lí điểm</a></li>
+    <li><a href="/baitaplon/bieudo/bieudo.html"> <i class="fas fa-chart-pie"></i> Biểu đồ </a></li> 
+       </ul>
+        <script>
+          function toggleNav() {
+           const navbar = document.querySelector('.nhap');
+           navbar.classList.toggle('active');
+       }
+ </script>
+        </nav>
+          <div class="tieude" id="tieude">Biểu Đồ</div>
+          <br>
+          <div class="chart-container">
+        <div id="bieudo1"></div>
+        <div id="bieudo2"></div>
+        <div id="bieudo3"></div>
+        <div id="bieudo4"></div>
+      </div>
+</body>
+</html>
